@@ -1,9 +1,11 @@
 .Game__score {
-  width: 100%;
   text-align: right;
   color: #6d5dfc;
   font-weight: 700;
+  display: inline-block;
+  width:100%;
 }
+
 .Game__error,
 .Game__success {
   color: red;
@@ -16,11 +18,11 @@
   color: #fff;
   background-color: rgba(0, 128, 0, 0.399);
 }
-.Game__scrambled_word {
+.Game__question {
   color: #1a1a1a;
   font-size: 20px;
 }
-.Game__answer {
+.Game__input_answer {
   width: 20.4rem;
   height: 3rem;
   display: block;
@@ -35,7 +37,7 @@
   margin: 50px auto;
   outline: none;
 }
-.Game__answer input::placeholder {
+.Game__input_answer input::placeholder {
   color: #bec8e482;
 }
 input:focus {
