@@ -1,16 +1,14 @@
-.Game__main_container{
+.Game__main_container {
   width: 40%;
   height: 50%;
   margin: 100px auto;
   border-radius: 3rem;
-  box-shadow:.8rem .8rem 1.4rem #c8d0e7eb, 
-            -.2rem -.2rem 1.8rem #fff;
+  box-shadow: 0.8rem 0.8rem 1.4rem #c8d0e7eb, -0.2rem -0.2rem 1.8rem #fff;
   padding: 4rem;
 }
-.Game__main_container > h1{
-  box-shadow: .3rem .3rem .6rem  #c8d0e7eb, 
-  -.2rem -.2rem .5rem #fff,inset .2rem .2rem .5rem #c8d0e7, 
-  inset -.2rem -.2rem .5rem #fff;
+.Game__heading{
+  box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7eb, -0.2rem -0.2rem 0.5rem #fff,
+    inset 0.2rem 0.2rem 0.5rem #c8d0e7, inset -0.2rem -0.2rem 0.5rem #fff;
   border-radius: 10px;
   padding: 10px;
   text-align: center;
